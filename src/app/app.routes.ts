@@ -1,7 +1,7 @@
 import { Route } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { HomeComponent as HomeComponent } from './home-component/home.component';
 
 export const appRoutes: Route[] = [
-    { path: "", component: NxWelcomeComponent },
+    { path: "", component: HomeComponent },
     { path: "products", loadChildren: () => import("@simple/products").then(r => r.productsRoutes) }
 ];

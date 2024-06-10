@@ -472,10 +472,9 @@ import { CommonModule } from '@angular/common';
         <!--  MIDDLE CONTENT  -->
         <div id="middle-content">
           <div id="learning-materials" class="rounded shadow">
-            <h2>Learning materials</h2>
+            <h2>Modules</h2>
             <a
-              href="https://nx.dev/getting-started/intro?utm_source=nx-project"
-              target="_blank"
+            routerLink="/products"
               rel="noreferrer"
               class="list-item-link"
             >
@@ -493,8 +492,8 @@ import { CommonModule } from '@angular/common';
                 />
               </svg>
               <span>
-                Documentation
-                <span> Everything is in there </span>
+                Products
+                <span> Feature </span>
               </span>
               <svg
                 fill="none"
