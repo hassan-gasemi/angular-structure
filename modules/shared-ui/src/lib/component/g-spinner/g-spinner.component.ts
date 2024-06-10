@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'lib-shared',
+  selector: 'lib-g-spinner',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './shared.component.html',
-  styleUrl: './shared.component.css',
+  templateUrl: './g-spinner.component.html',
+  styleUrl: './g-spinner.component.css',
 })
-export class SharedComponent {}
+export class GSpinnerComponent {}
