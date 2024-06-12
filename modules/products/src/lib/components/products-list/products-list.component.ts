@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { PrimeNgModule } from '@simple/shared-ui';
+import { GeneralModule, PrimeNgModule } from '@simple/shared-ui';
 
 @Component({
   selector: 'lib-products-list',
   standalone: true,
-  imports: [CommonModule, PrimeNgModule],
+  imports: [GeneralModule, PrimeNgModule],
   templateUrl: './products-list.component.html',
   styleUrl: './products-list.component.css',
 })

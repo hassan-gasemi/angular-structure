@@ -24,7 +24,7 @@
                             <span class="text-xl font-semibold text-900">{{ '$' + item.price }}</span>
                             <div class="flex flex-row-reverse md:flex-row gap-2">
                                 <p-button icon="pi pi-heart" [outlined]="true" />
-                                <p-button icon="pi pi-shopping-cart" class="flex-auto md:flex-initial white-space-nowrap" label="Buy Now" [disabled]="item.inventoryStatus === 'OUTOFSTOCK'" />
+                                <p-button routerLink="/products/detail" icon="pi pi-shopping-cart" class="flex-auto md:flex-initial white-space-nowrap" label="Buy Now" [disabled]="item.inventoryStatus === 'OUTOFSTOCK'" />
                             </div>
                         </div>
                     </div>
