@@ -28,20 +28,14 @@ export class LayoutMenuComponent implements OnInit {
           {
             label: 'Products',
             icon: 'pi pi-bolt',
-            shortcut: '⌘+S',
-            url: '/products'
+            url: '/products',
+            target: '_self'
           },
           {
             label: 'Orders',
             icon: 'pi pi-server',
-            shortcut: '⌘+B',
-            url: '/orders'
-          },
-          {
-            label: 'Auth',
-            icon: 'pi pi-pencil',
-            shortcut: '⌘+U',
-            url: '/auth'
+            url: '/orders',
+            target: '_self'
           }
         ]
       }
