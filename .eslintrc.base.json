@@ -18,27 +18,35 @@
               },
               {
                 "sourceTag": "type:feature",
-                "onlyDependOnLibsWithTags": ["type: feature", "type:util", "type:ui"]
+                "onlyDependOnLibsWithTags": ["type: feature", "type:util", "type:ui", "type:contract"]
               },
               {
                 "sourceTag": "type:ui",
                 "onlyDependOnLibsWithTags": ["type:ui"]
               },
               {
+                "sourceTag": "type:util",
+                "onlyDependOnLibsWithTags": ["type:util", "type:contract"]
+              },
+              {
                 "sourceTag": "scope: orders",
-                "onlyDependOnLibsWithTags": ["scope: orders","scope: products", "scope: shared", "scope: shared-ui"]
+                "onlyDependOnLibsWithTags": ["scope: orders","scope: products", "scope: shared", "scope: shared-ui", "scope: contracts"]
               },
               {
                 "sourceTag": "scope: products",
-                "onlyDependOnLibsWithTags": ["scope: products","scope: shared", "scope: shared-ui"]
+                "onlyDependOnLibsWithTags": ["scope: products","scope: shared", "scope: shared-ui", "scope: contracts"]
               },
               {
                 "sourceTag": "scope: shared",
-                "onlyDependOnLibsWithTags": ["scope: shared"]
+                "onlyDependOnLibsWithTags": ["scope: shared", "scope: contracts"]
               },
               {
                 "sourceTag": "scope: shared-ui",
                 "onlyDependOnLibsWithTags": ["scope: shared-ui"]
+              },
+              {
+                "sourceTag": "scope: contracts",
+                "onlyDependOnLibsWithTags": ["scope: contracts"]
               }
             ]
           }

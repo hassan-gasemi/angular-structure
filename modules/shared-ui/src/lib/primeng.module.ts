@@ -10,6 +10,7 @@ import { TagModule } from 'primeng/tag';
 import { InputGroupModule } from 'primeng/inputgroup';
 import { InputGroupAddonModule } from 'primeng/inputgroupaddon';
 import { MenubarModule } from 'primeng/menubar';
+import { TableModule } from 'primeng/table';
 
 
 const MODULES = [
@@ -18,7 +19,8 @@ const MODULES = [
     TagModule,
     InputGroupModule,
     InputGroupAddonModule,
-    MenubarModule
+    MenubarModule,
+    TableModule
 ]
 @NgModule ( {
     imports: [...MODULES],

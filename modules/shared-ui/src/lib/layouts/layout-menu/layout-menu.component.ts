@@ -44,11 +44,6 @@ export class LayoutMenuComponent implements OnInit {
             url: '/auth'
           }
         ]
-      },
-      {
-        label: 'Contact',
-        icon: 'pi pi-envelope',
-        badge: '3'
       }
     ];
   }

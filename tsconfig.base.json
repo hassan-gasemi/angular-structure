@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@simple/auth": ["modules/auth/src/index.ts"],
+      "@simple/contracts": ["modules/contracts/src/index.ts"],
       "@simple/orders": ["modules/orders/src/index.ts"],
       "@simple/products": ["modules/products/src/index.ts"],
       "@simple/shared": ["modules/shared/src/index.ts"],
