@@ -19,7 +19,7 @@ export class LayoutMenuComponent implements OnInit {
       {
         label: 'Home',
         icon: 'pi pi-home',
-        url: ''
+        routerLink: '/'
       },
       {
         label: 'Modules',
@@ -28,14 +28,12 @@ export class LayoutMenuComponent implements OnInit {
           {
             label: 'Products',
             icon: 'pi pi-bolt',
-            url: '/products',
-            target: '_self'
+            routerLink: '/products',
           },
           {
             label: 'Orders',
             icon: 'pi pi-server',
-            url: '/orders',
-            target: '_self'
+            routerLink: '/orders'
           }
         ]
       }

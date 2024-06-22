@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Product } from '@simple/contracts';
+import { AuthService } from '@simple/shared';
 import { GeneralModule, PrimeNgModule } from '@simple/shared-ui';
 
 @Component({
@@ -12,7 +13,7 @@ import { GeneralModule, PrimeNgModule } from '@simple/shared-ui';
 export class ProductsListComponent {
   products: Product[] = [];
 
-    constructor() {}
+    constructor(private authService: AuthService) {}
 
     ngOnInit() {
       this.products.push({

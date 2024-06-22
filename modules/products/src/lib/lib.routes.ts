@@ -1,8 +1,8 @@
 import { Route } from '@angular/router';
-import { ProductsListComponent } from './components/products-list/products-list.component';
+import { LayoutComponent } from '@simple/shared-ui';
 import { ProductsCreateComponent } from './components/products-create/products-create.component';
 import { ProductsDetailComponent } from './components/products-detail/products-detail.component';
-import { LayoutComponent } from '@simple/shared-ui';
+import { ProductsListComponent } from './components/products-list/products-list.component';
 
 export const productsRoutes: Route[] = [
   {
